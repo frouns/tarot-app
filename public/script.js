@@ -3,7 +3,7 @@ pdocument.getElementById("submit").addEventListener("click", async () => {
   const responseDiv = document.getElementById("response");
   responseDiv.innerHTML = "🔮 Interpretando tu tirada...";
 
-  const res = await fetch("https://TON_BACKEND_RENDER.onrender.com/tarot", {
+  const res = await fetch("https://tarot-backend1.onrender.com", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ question })
