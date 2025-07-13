@@ -1,4 +1,4 @@
-document.getElementById("submit").addEventListener("click", async () => {
+pdocument.getElementById("submit").addEventListener("click", async () => {
   const question = document.getElementById("question").value;
   const responseDiv = document.getElementById("response");
   responseDiv.innerHTML = "🔮 Interpretando tu tirada...";
